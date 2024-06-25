@@ -1,5 +1,3 @@
-
-
 const DynamicRoute = ({params, searchParams}) => {
      console.log(params)
     return (
