@@ -1,18 +1,16 @@
-"use client"
-import { useState } from "react";
+import Counter from "@/Components/counter";
+
 
 const HomePage = () => {
-  const [count,setCount]=useState(0)
 
 
+    // throw new Error()
 
   return (
     <div className="min-h-screen">
-            <button className="btn btn-primary" onClick={()=>setCount(count+1)}>+</button>
-            <button className="btn btn-primary" onClick={()=>setCount(count-1)}>-</button>
-   
+        <h1>this is home page</h1>
 
-          <h1>{count}</h1>
+        <Counter/>
     </div>
   );
 };
