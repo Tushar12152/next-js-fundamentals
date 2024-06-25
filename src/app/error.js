@@ -4,7 +4,7 @@
 const ErrorPage = () => {
     return (
         <div>
-             <h1>ErrorPage.... Something went wrong..........</h1>
+             <h1 className="text-red-500">ErrorPage.... Something went wrong..........</h1>
         </div>
     );
 };

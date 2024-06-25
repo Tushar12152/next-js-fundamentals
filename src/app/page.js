@@ -1,4 +1,5 @@
-import Counter from "@/Components/counter";
+import Counter from "@/Components/Counter";
+
 
 
 const HomePage = () => {
