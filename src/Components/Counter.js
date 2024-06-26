@@ -9,13 +9,15 @@ import { useState } from "react";
 const Counter = () => {
     const [count,setCount]= useState(0)
 
-             console.log(count)
+            //  console.log(count)
     
     return (
         <div>
-              <button className="btn  p-2 bg-rose-300" onClick={()=>setCount(count+1)}>+</button>
-            <button className="btn  p-2 bg-green-300" onClick={()=>setCount(count-1)}>-</button>
+             <div  className="flex gap-6">
+             <button className="btn  btn-primary" onClick={()=>setCount(count+1)}>+</button>
+            <button className="btn  btm-secondery" onClick={()=>setCount(count-1)}>-</button>
    
+             </div>
 
           <h1> Total Counter :{count}</h1>
         </div>
